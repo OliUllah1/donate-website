@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,500;0,900;1,300;1,900&family=Lobster&family=Open+Sans:wght@400;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+
 *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -43,6 +45,7 @@
 .main{
     max-width: 1140px;
     margin: 0 auto;
+    background-color: #ffff;
 }
 
 .donate{
@@ -69,22 +72,27 @@
     display: flex;
     gap: 5px;
     margin-bottom: 40px;
-    /* justify-content: space-between; */
+
 }
 .donate-taka ul li{
     font-size: 25px;
     font-weight: 700;
     list-style: none;
     padding: 40px;
-    color: #FD6E0A;
     background-color: #fff;
     border-radius: 5px;
+    color: #bec7c7;
     
 }
 .border{
     border: 1px solid #FD6E0A;
     border-radius: 5px;
+   
 }
+.border li{
+    background-color: #fd6e0a;
+}
+
 .donate-bottem{
     text-align: center;
 }
@@ -242,4 +250,23 @@ hr{
     border: 0;
     padding: 8px 50px;
     border-radius: 0px 5px 5px 0px;
+}
+
+/* footer style */
+
+footer{
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 120px;
+}
+.footer-section{
+    text-align: center;
+    color: #ffff;
+    
+}
+.footer-tittle{
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 15px;
 }

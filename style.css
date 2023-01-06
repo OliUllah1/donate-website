@@ -153,7 +153,8 @@ hr{
 /* about style */
 .about{
     max-width: 1140px;
-    margin-top: 100px;
+    margin: 100px 0;
+
 }
 .about-part1{
     display: flex;
@@ -180,4 +181,65 @@ hr{
     font-size: 18px;
     margin-bottom: 20px;
     color: #bec7c7;
+}
+
+/* about part 2 */
+
+.about-part2{
+    display: flex;
+    gap: 100px;
+}
+.about-bottem-img img{
+    width: 400px;
+    height: 420px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+/* contact style */
+
+.contact{
+    margin-bottom: 100px;
+}
+.contact-deta{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-tittle{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+.contact-subtittle{
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #bec7c7;
+}
+.form{
+    background-color: #FD6E0A;
+    padding: 70px 100px;
+    display: flex;
+}
+.form input{
+    color: #fff;
+}
+.form-email{
+    color: aliceblue;
+    padding: 0 10px;
+    background-color: #969e9e;
+    height: 50px;
+    width: 260px;
+    border: 0;
+    color: #fff;
+}
+.form-btn{
+    background-color: #23db1291;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 18px;
+    border: 0;
+    padding: 8px 50px;
+    border-radius: 0px 5px 5px 0px;
 }
